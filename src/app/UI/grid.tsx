@@ -9,6 +9,7 @@ import {
   MantineProvider,
 } from "@mantine/core";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const PRIMARY_COL_HEIGHT = "300px";
@@ -20,10 +21,10 @@ export function GridTab() {
     <MantineProvider>
       <Container my="md" className="mx-auto">
         <SimpleGrid cols={{ base: 1, sm: 2 }} spacing="md">
-          {/* Left column: your image */}
-          <Image src={"/project1.png"} alt="coding" width={500} height={500} />
+          <Link href="">
+             <Image src={"/project1.png"} alt="coding" width={500} height={500} />
 
-          {/* Right column: Grid layout */}
+          </Link>
           <Grid gutter="md">
             <GridCol>
               <Skeleton
