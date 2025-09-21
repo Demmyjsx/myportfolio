@@ -80,7 +80,7 @@ export default function TimeLine() {
     <RadialFlow
       topics={demoTopics}
       badgeName="😂"
-      centralDotColor="#328F26FF"
+      centralDotColor="#4AD139FF"
     />
   );
 }
