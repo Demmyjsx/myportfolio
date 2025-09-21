@@ -9,7 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@mage-ui/components": "^0.0.39",
+    "@mantine/core": "^8.3.1",
+    "@mantine/hooks": "^8.3.1",
     "@react-icons/all-files": "^4.1.0",
+    "@types/three": "^0.180.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.16",
@@ -19,7 +23,9 @@
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-icons": "^5.5.0",
-    "tailwind-merge": "^3.3.1"
+    "react-vertical-timeline-component": "^3.5.3",
+    "tailwind-merge": "^3.3.1",
+    "three": "^0.180.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
@@ -27,6 +33,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
     "tailwindcss": "^4",

@@ -5,8 +5,12 @@ import {
   ToggleVaultClose,
 } from "@/components/ui/toggle-vault";
 import AnimatedText from "./animatedText";
-import { Status } from "@/components/ui/status";
-import { FaReact } from "react-icons/fa";
+
+import TimeLine from "./timeLine";
+import { GridTab } from "./grid";
+
+
+
 
 export default function ToggleVaultDemo() {
   return (
@@ -41,31 +45,12 @@ export default function ToggleVaultDemo() {
                    
           </div>
     </section>
-    <section id="about">
-            <div className="flex flex-col gap-3">
-      <div className="flex gap-3">
-        <Status status="online">
-            <FaReact /> React
-        </Status>
-        <Status status="offline">Offline</Status>
-        <Status status="away">Away</Status>
-      </div>
-      <div className="flex gap-3">
-        <Status status="info">Info</Status>
-        <Status status="warning">Warning</Status>
-        <Status status="idle">Idle</Status>
-      </div>
-      <div className="flex gap-3">
-        <Status status="error">Error</Status>
-        <Status status="pending">Pending</Status>
-        <Status status="success">Success</Status>
-      </div>
-      <div className="flex gap-3">
-        <Status status="error">Error</Status>
-        <Status status="busy">Busy</Status>
-        <Status status="online">Online</Status>
-      </div>
-    </div>
+    <section id="">
+        <h1 className="text-3xl text-center text-gray-500"></h1>
+          <TimeLine />
+    </section>
+    <section id="projects">
+            <GridTab />
 
     </section>
     </>
