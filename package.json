@@ -12,6 +12,7 @@
     "@mage-ui/components": "^0.0.39",
     "@mantine/core": "^8.3.1",
     "@mantine/hooks": "^8.3.1",
+    "@radix-ui/react-aspect-ratio": "^1.1.7",
     "@react-icons/all-files": "^4.1.0",
     "@types/three": "^0.180.0",
     "class-variance-authority": "^0.7.1",
