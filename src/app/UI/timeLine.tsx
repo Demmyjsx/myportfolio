@@ -11,15 +11,15 @@ const demoTopics: Topic[] = [
     highlighted: true,
   },
   {
-    id: "CSS3 / TailwindCSS",
-    name: "CSS3 / TailwindCSS",
+    id: "CSS3/TailwindCSS",
+    name: "CSS3/TailwindCSS",
     position: { x: 10, y: 35 },
     color: "oklch(72.3% 0.219 149.579)",
     highlighted: true,
   },
   {
     id: "JavaScript (ES6+)",
-    name: "JavaScript (ES6+)",
+    name: "JavaScript",
     position: { x: 10, y: 50 },
     color: "oklch(72.3% 0.219 149.579)",
     highlighted: true,
@@ -77,7 +77,7 @@ const demoTopics: Topic[] = [
 
 export default function TimeLine() {
   return (
-    <div className="mx-4">
+    <div className="mx-[4px]">
          <RadialFlow
       topics={demoTopics}
       badgeName="😂"

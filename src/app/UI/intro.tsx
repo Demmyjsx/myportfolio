@@ -8,6 +8,7 @@ import AnimatedText from "./animatedText";
 
 import TimeLine from "./timeLine";
 import  GridTab from "./grid";
+import Process from "./process";
 
 
 
@@ -15,7 +16,7 @@ import  GridTab from "./grid";
 export default function ToggleVaultDemo() {
   return (
     <>
-        <section id="home" className="text-center">
+        <section id="home" >
               
               
                     <div className="relative w-full ">
@@ -46,14 +47,11 @@ export default function ToggleVaultDemo() {
             </div>
                
         </section>
-    <section id="Certificates" className="">
-        
-           
-
-
+    <section id="Certificates" >
         <GridTab />
         <h1 className="text-3xl text-center text-gray-500 mt-10">My Tools</h1>
           <TimeLine />
+          <Process />
     </section>
     <section id="">
             
