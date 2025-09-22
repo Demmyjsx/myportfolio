@@ -77,10 +77,13 @@ const demoTopics: Topic[] = [
 
 export default function TimeLine() {
   return (
-    <RadialFlow
+    <div className="mx-4">
+         <RadialFlow
       topics={demoTopics}
       badgeName="😂"
       centralDotColor="#4AD139FF"
     />
+    </div>
+    
   );
 }
