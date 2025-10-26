@@ -68,11 +68,7 @@ const PortfolioCard = ({
       <div className="relative mb-12">
         <Image src={ImageHref} alt="portfolio" className="w-full" width={600} height={400} />
       </div>
-      <div className="relative z-10 mx-7 -mt-28 rounded-lg bg-white dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
-       
-        <h3 className="text-dark dark:text-white mb-5 text-xl font-bold">{title}</h3>
-       
-      </div>
+     
     </div>
   );
 };
