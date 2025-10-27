@@ -17,7 +17,7 @@ export default function Projects() {
           <MotionCardContent className="flex flex-col bg-gray-50 rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden">
             <div className="relative w-full h-64 md:h-80">
               <Image
-                src="/ivara.png"
+                src="/ivaraUk.png"
                 alt="Ivara Project"
                 fill
                 className="object-cover"
