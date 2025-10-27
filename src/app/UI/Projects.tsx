@@ -32,7 +32,7 @@ export default function Projects() {
                 creative, modern solutions.
               </p>
               <Link
-                href="https://ivara.example.com" 
+                href="https://ivara.co.uk " 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-block px-4 py-2 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 transition-colors w-max"
@@ -62,7 +62,7 @@ export default function Projects() {
                 built for Africa.
               </p>
               <Link
-                href="https://otisoft.example.com" 
+                href="https://beta.otisoft.io/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-block px-4 py-2 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 transition-colors w-max"
@@ -90,7 +90,7 @@ export default function Projects() {
                 experience powered by smooth UI animations.
               </p>
               <Link
-                href="https://tunescape.example.com" 
+                href="https://tunescape-ruhp.vercel.app/" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-3 inline-block px-4 py-2 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 transition-colors w-max"
