@@ -57,7 +57,7 @@ const PortfolioCard = ({
  
   
   ImageHref,
-  title,
+  
  
 }: PortfolioCardProps) => {
   return (

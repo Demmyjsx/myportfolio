@@ -9,6 +9,8 @@ import AnimatedText from "./animatedText";
 import TimeLine from "./timeLine";
 import  GridTab from "./grid";
 import Process from "./process";
+import Projects from "./Projects";
+import Footer from "./footerContact";
 
 
 
@@ -30,7 +32,7 @@ export default function ToggleVaultDemo() {
                           <ToggleVaultContent className="w-[300px] h-[250px] bg-gray-600 p-8 text-xl flex flex-col gap-4">
                           <a href="#home">HOME</a>
                           <a href="#Certificates">Certifications</a>
-                          <a href="#">PROJECTS</a>
+                          <a href="#projects">PROJECTS</a>
                           <a href="#contact">CONTACT</a>
                           </ToggleVaultContent>
                       </ToggleVault>
@@ -48,14 +50,18 @@ export default function ToggleVaultDemo() {
                
         </section>
     <section id="Certificates" >
-        <GridTab />
-        <h1 className="text-3xl text-center text-gray-500 mt-10">My Tools</h1>
+           <GridTab />
+              <h1 className="text-3xl text-center text-gray-500 mt-10">My Tools</h1>
           <TimeLine />
           <Process />
     </section>
-    <section id="">
+    <section id="projects">
             
-
+        <Projects />
+    </section>
+    
+    <section id="contact">
+        <Footer />
     </section>
     </>
    

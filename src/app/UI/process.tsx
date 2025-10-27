@@ -55,6 +55,10 @@ export default function Process() {
           </VerticalTimelineElement>
         ))}
       </VerticalTimeline>
+
+      <div>
+        
+      </div>
     </div>
   );
 }
