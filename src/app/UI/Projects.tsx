@@ -76,6 +76,34 @@ export default function Projects() {
           <MotionCardContent className="flex flex-col bg-gray-50 rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden md:col-span-2">
             <div className="relative w-full h-64 md:h-96">
               <Image
+                src="/berkshire.png"
+                alt="Berkshire Project"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div className="p-6 flex flex-col gap-3">
+              <h3 className="text-xl font-semibold">Berkshire</h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+               Project Management Company, next  & Tailwind CSS
+                — specializing in diverse sectors from Real Estate to finance and more
+                experience powered by smooth framer motion UI animations .
+              </p>
+              <Link
+                href="https://berkshirepms.vercel.app/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-3 inline-block px-4 py-2 bg-black text-white text-sm font-medium rounded-lg hover:bg-gray-800 transition-colors w-max"
+              >
+                View Project
+              </Link>
+            </div>
+          </MotionCardContent>
+
+
+          <MotionCardContent className="flex flex-col bg-gray-50 rounded-2xl shadow-sm hover:shadow-lg transition-shadow overflow-hidden md:col-span-2">
+            <div className="relative w-full h-64 md:h-96">
+              <Image
                 src="/tunescape.png"
                 alt="Tunescape Project"
                 fill

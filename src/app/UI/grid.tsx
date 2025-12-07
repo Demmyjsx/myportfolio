@@ -35,6 +35,7 @@ const Portfolio = () => {
               title="Proficiency in System Management"
              
             />
+            
            
           </div>
         </div>
