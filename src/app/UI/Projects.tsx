@@ -87,7 +87,7 @@ export default function Projects() {
               <p className="text-gray-600 text-sm leading-relaxed">
                Project Management Company, next  & Tailwind CSS
                 — specializing in diverse sectors from Real Estate to finance and more
-                experience powered by smooth framer motion UI animations .
+                experience powered by smooth framer motion animations .
               </p>
               <Link
                 href="https://berkshirepms.vercel.app/" 
